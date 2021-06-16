@@ -1,0 +1,3 @@
+-> Aws credentials sir asked to share
+-> It asks account id or alias along with username and pass
+-> So alias is locuz-iiith

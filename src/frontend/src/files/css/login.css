@@ -1,0 +1,143 @@
+#logincontainer{
+    background-color:#fff1;
+    width: 60%;
+    padding: 15px;
+    margin: auto;
+    /* border: black solid 5px; */
+    border-radius:50px ;
+      z-index: 2;
+      position: relative;
+    
+    }
+    #logintypo{
+    margin: auto;
+    width:80%;
+    }
+    #loginicon{
+      font-size: 110px;
+      margin-bottom: -67px;
+      z-index: 88;
+    }
+    #tandc{
+      text-decoration:none;
+    }
+    #tandc:hover{
+      color: red;
+    }
+    #tandcheck{
+      width:20px;
+      height: 20px;
+    }
+    #loginbutton{
+        width:45%;
+        background-color:purple;
+        margin-top : 8px ;
+        font-weight:1000;
+        padding:12px;
+        letter-spacing:1.2px;
+    }
+
+    #tc{
+        font-size: 18px;
+        display: inline;
+
+    }
+   #nouser{
+    font-weight:800;
+    font-size:20px;
+   }
+
+    @media only screen and (max-width:1100px){
+        
+      #loginicon{
+        font-size: 100px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 30px;
+     }
+        #loginbutton{
+            width:55%;
+            margin-top : 8px ;
+            font-weight:1000;
+            padding:12px;
+            letter-spacing:1.2px;
+        }
+        #tc{
+        display: inline;
+        font-size: 16px;
+        }
+    }
+    @media only screen and (max-width:800px){
+      #loginicon{
+        font-size: 90px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 30px;
+     }
+       #logincontainer{
+           width:80%;
+       }
+        #loginbutton{
+            width:52%;
+            margin-top : 8px ;
+            font-weight:1000;
+            padding:12px;
+            letter-spacing:1.2px;
+        }
+        #tc{
+        display: inline;
+        font-size: 16px;
+        }
+        #nouser{
+            font-weight:700;
+            font-size:18px;
+           }
+    }
+    @media only screen and (max-width:650px){
+       
+      #loginicon{
+        font-size: 75px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 25px;
+     }
+        #tc{
+        display: inline;
+        font-size: 16px;
+        }
+        #loginbutton{
+            width:50%;
+            margin-top : 8px ;
+            font-weight:1000;
+            padding:12px;
+            letter-spacing:1.2px;
+        }
+        #tandcheck{
+            width:15px;
+            height: 15px;
+          }
+          #nouser{
+            font-weight:600;
+            font-size:16px;
+           }
+    }
+    @media only screen and (max-width:480px){
+       #loginicon{
+          font-size: 60px;
+          margin-bottom: -60px;
+       }
+       h1{
+         font-size: 25px;
+       }
+        #tc{
+        display: inline;
+        font-size: 10px;
+        }
+        #tandcheck{
+            width:10px;
+            height: 10px;
+          }
+    }

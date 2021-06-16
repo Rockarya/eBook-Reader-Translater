@@ -1,0 +1,79 @@
+#signupbutton{
+    width:50%;
+    background-color: blue;
+    margin-top : 8px ;
+    font-weight:1000;
+    padding:12px;
+    letter-spacing:1.2px;
+}
+#cat{
+    font-size: 18px;
+    font-weight: bold;
+}
+#loginicon{
+    font-size: 110px;
+    margin-bottom: -67px;
+    z-index: 88;
+  }
+.MuiFormControlLabel-label{
+    font-size: auto;
+}
+@media only screen and (max-width:1100px){
+    #signupbutton{
+        width: 60%;
+    }
+    
+    #loginicon{
+        font-size: 100px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 30px;
+     }
+    
+}
+@media only screen and (max-width:800px){
+    #signupbutton{
+        width: 55%;
+    }
+    #loginicon{
+        font-size: 90px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 30px;
+     }
+    
+}
+@media only screen and (max-width:650px){
+    #signupbutton{
+        width: 55%;
+    }
+    #loginicon{
+        font-size: 75px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 25px;
+     }
+}
+@media only screen and (max-width:480px){
+    #signupbutton{
+        width: 50%;
+        font-size: 12px;
+        padding: 5px;
+    }
+    #cat{
+        font-size: 10.5px;
+    }
+    #loginicon{
+        font-size: 60px;
+        margin-bottom: -60px;
+     }
+     h1{
+       font-size: 20px;
+     }
+     #tcdiv{
+         
+     }
+}
